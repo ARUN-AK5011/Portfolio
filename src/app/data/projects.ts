@@ -48,7 +48,7 @@ export const allProjects: Project[] = [
   },
   {
     id: 3,
-    title: "Food Order",
+    title: "Alpha Orders",
     category: "Web Application",
     description:
       "Customer can able to place food orders online and track their food cooking status.",
@@ -58,8 +58,8 @@ export const allProjects: Project[] = [
     image:
       "https://res.cloudinary.com/instarental/image/upload/v1772540265/food_o2sntp.jpg",
     year: "2025",
-    githubUrl: "https://github.com/ARUN-AK5011/FOOD_ORDER",
-    liveUrl: "https://saravanacafe.netlify.app",
+    githubUrl: "https://github.com/ARUN-AK5011/Alpha-Orders",
+    liveUrl: "https://alpha-orders.netlify.app/",
     featured: true,
   },
   {
