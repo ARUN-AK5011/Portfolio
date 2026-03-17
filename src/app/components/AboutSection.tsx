@@ -3,12 +3,11 @@ import { useRef } from "react";
 import { ArrowDown, ArrowRight } from "lucide-react";
 
 const metrics = [
-  { value: "13+", label: "Projects Shipped" },
+  { value: "13+", label: "Production Applications" },
   { value: "2M+", label: "API Requests / Month" },
-  { value: "5+", label: "CI/CD Pipelines Built" },
-  { value: "5+", label: "Eco-System Projects Built" },
+  { value: "5+", label: "Automated CI/CD Pipelines" },
+  { value: "5+", label: "Developer Tools & Platforms" },
 ];
-
 export function AboutSection() {
   const sectionRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start start", "end start"] });
@@ -25,6 +24,9 @@ export function AboutSection() {
       ref={sectionRef}
       className="relative min-h-screen flex flex-col justify-center bg-[#050505] overflow-hidden"
     >
+      <h1 className="sr-only">
+        Arun Kumar - Go Developer and Full Stack Software Engineer
+      </h1>
       <motion.div style={{ opacity, y }} className="max-w-7xl mx-auto px-6 md:px-12 w-full pt-20 md:pt-28 pb-16 md:pb-20 relative z-10">
         {/* Main headline */}
         <div className="max-w-5xl mb-10">
@@ -41,7 +43,7 @@ export function AboutSection() {
                 lineHeight: 1.05,
               }}
             >
-              I turn complex problems
+             I build scalable
             </motion.h1>
           </div>
           <div className="overflow-hidden">
@@ -57,10 +59,10 @@ export function AboutSection() {
                 lineHeight: 1.05,
               }}
             >
-              into <span className="text-[#bcfc00]">elegant digital</span>
+              backend systems and <span className="text-[#bcfc00]">modern web applications.</span>
             </motion.h1>
           </div>
-          <div className="overflow-hidden">
+          {/* <div className="overflow-hidden">
             <motion.h1
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
@@ -75,7 +77,7 @@ export function AboutSection() {
             >
               solutions.
             </motion.h1>
-          </div>
+          </div> */}
         </div>
 
         {/* Description */}
@@ -83,16 +85,16 @@ export function AboutSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7 }}
-          className="max-w-xl mb-14"
+          className="max-w-2xl mb-14"
         >
           <p
             className="text-white/30"
             style={{ fontFamily: "Inter, sans-serif", fontSize: "1.05rem", lineHeight: 1.9 }}
           >
-            I'm a full-stack developer based in{" "}
+            I'm Arun Kumar, a full-stack developer based in{" "}
             <span className="text-[#bcfc00]/60">Chennai, India</span>{" "}
-            crafting digital products at the intersection of design and engineering, 
-            focused on performance, accessibility, and pixel-perfect execution.
+            I specialize in Go (Golang), backend architecture, REST APIs, and modern web applications.
+            I focus on building reliable, scalable systems and developer-friendly tools that power real-world products.
           </p>
         </motion.div>
 
@@ -110,7 +112,7 @@ export function AboutSection() {
             className="group relative flex items-center gap-3 px-8 py-4 rounded-full bg-[#bcfc00] text-[#0a0a0a] overflow-hidden"
             style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: 600 }}
           >
-            <span className="relative z-10 text-sm tracking-wide">View My Work</span>
+            <span className="relative z-10 text-sm tracking-wide">View Projects</span>
             <ArrowRight size={16} className="relative z-10 group-hover:translate-x-1 transition-transform duration-300" />
             <motion.div
               className="absolute inset-0 bg-[#d4fc4d]"
