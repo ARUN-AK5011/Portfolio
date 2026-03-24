@@ -25,7 +25,7 @@ export function AboutSection() {
       className="relative min-h-screen flex flex-col justify-center bg-[#050505] overflow-hidden"
     >
       <h1 className="sr-only">
-        Arun Kumar - Go Developer and Full Stack Software Engineer
+        Arun Kumar - Go Developer | Golang Developer | Freelance Developer | Software Developer | Chennai, India
       </h1>
       <motion.div style={{ opacity, y }} className="max-w-7xl mx-auto px-6 md:px-12 w-full pt-20 md:pt-28 pb-16 md:pb-20 relative z-10">
         {/* Main headline */}
