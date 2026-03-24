@@ -268,6 +268,15 @@ export function ProjectsSection() {
             </motion.span>
           </motion.button>
         </motion.div>
+
+        {/* SEO Hidden Content */}
+        <div className="sr-only">
+          <h2>Go Developer Projects</h2>
+          <p>Golang projects featuring concurrent programming, goroutines, REST APIs, microservices, backend development.</p>
+          <p>Software development portfolio showcasing React, Node.js, Go, Golang backend systems, PostgreSQL, Docker, cloud deployment.</p>
+          <p>Freelance developer available for Golang development, backend architecture, API development, microservices design.</p>
+          <p>Arun Kumar software developer Chennai India - Golang engineer, backend developer, full stack developer, remote developer.</p>
+        </div>
       </div>
     </section>
   );

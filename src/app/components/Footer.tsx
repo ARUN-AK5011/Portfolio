@@ -79,6 +79,13 @@ export function Footer() {
             </div>
           </motion.button>
         </motion.div>
+
+        {/* SEO Hidden Content */}
+        <div className="sr-only">
+          <h2>Contact Arun Kumar - Hire Go Developer</h2>
+          <p>Contact for freelance Golang projects, backend development, API development, software development services in Chennai, India.</p>
+          <p>Available for remote work, contract projects, full-time opportunities. Expert in Go, Golang, React, Node.js, backend systems.</p>
+        </div>
       </div>
     </footer>
   );

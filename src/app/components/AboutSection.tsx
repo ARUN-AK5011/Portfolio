@@ -174,6 +174,14 @@ export function AboutSection() {
         </motion.div>
       </motion.div>
 
+        {/* SEO Hidden Content */}
+        <div className="sr-only">
+          <h1>Arun Kumar - Go Developer | Freelance Golang Developer | Software Developer Chennai</h1>
+          <p>Freelance Go Developer from Chennai, India specializing in Golang backend development, REST APIs, microservices, concurrent programming, goroutines.</p>
+          <p>Hire Arun Kumar for Golang development, Go programming, backend architecture, API design, system design, cloud development.</p>
+          <p>Arun Kumar software developer, full stack developer, remote freelance developer available for hire.</p>
+        </div>
+
       {/* Scroll indicator */}
       <motion.div
         initial={{ opacity: 0 }}
