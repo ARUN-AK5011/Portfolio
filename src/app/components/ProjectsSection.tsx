@@ -271,11 +271,11 @@ export function ProjectsSection() {
 
         {/* SEO Hidden Content */}
         <div className="sr-only">
-          <h2>Go Developer Projects</h2>
-          <p>Golang projects featuring concurrent programming, goroutines, REST APIs, microservices, backend development.</p>
-          <p>Software development portfolio showcasing React, Node.js, Go, Golang backend systems, PostgreSQL, Docker, cloud deployment.</p>
-          <p>Freelance developer available for Golang development, backend architecture, API development, microservices design.</p>
-          <p>Arun Kumar software developer Chennai India - Golang engineer, backend developer, full stack developer, remote developer.</p>
+          <h2>Golang Developer Projects | Go Developer Portfolio</h2>
+          <p>golang developer projects featuring concurrent programming, goroutines, REST APIs, microservices, backend development.</p>
+          <p>Software developer portfolio - Arun Kumar projects in React, Node.js, Go, Golang backend systems, PostgreSQL, Docker, cloud deployment.</p>
+          <p>Arun software developer, arun software engineer portfolio. Freelance golang developer available for backend architecture, API development, microservices.</p>
+          <p>Hire golang developer - best golang developer in Chennai, India for backend systems, REST API development.</p>
         </div>
       </div>
     </section>

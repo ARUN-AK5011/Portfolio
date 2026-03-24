@@ -189,11 +189,11 @@ export function SkillsSection() {
 
         {/* SEO Hidden Content */}
         <div className="sr-only">
-          <h2>Golang Developer Skills - Go Programming, Concurrency, Goroutines, Channel Programming</h2>
-          <p>Backend development skills: Go, Golang, Node.js, Express, NestJS, REST API development, GraphQL, Microservices architecture.</p>
-          <p>Frontend skills: React.js, Next.js, React Native, TypeScript, Tailwind CSS, WebGL, Three.js</p>
-          <p>Database & Cloud: PostgreSQL, MySQL, MongoDB, Redis, Firebase, AWS, GCP, Docker, Kubernetes, CI/CD</p>
-          <p>Developer tools: Git, VS Code, Linux, Docker, Postman, Figma, Design Systems</p>
+          <h2>Golang Developer Skills | Go Developer Chennai | Software Engineer Skills</h2>
+          <p>golang developer skills - Go, Golang, Node.js, Express, NestJS, REST API development, GraphQL, Microservices architecture, concurrent programming.</p>
+          <p>Arun Kumar software developer skills: React.js, Next.js, React Native, TypeScript, Tailwind CSS, WebGL, Three.js frontend.</p>
+          <p>Backend skills: PostgreSQL, MySQL, MongoDB, Redis, Firebase, AWS, GCP, Docker, Kubernetes, CI/CD - hire golang developer.</p>
+          <p>Software engineer tools: Git, VS Code, Linux, Docker, Postman, Figma, Design Systems</p>
         </div>
       </div>
     </section>

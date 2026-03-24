@@ -176,10 +176,10 @@ export function AboutSection() {
 
         {/* SEO Hidden Content */}
         <div className="sr-only">
-          <h1>Arun Kumar - Go Developer | Freelance Golang Developer | Software Developer Chennai</h1>
-          <p>Freelance Go Developer from Chennai, India specializing in Golang backend development, REST APIs, microservices, concurrent programming, goroutines.</p>
-          <p>Hire Arun Kumar for Golang development, Go programming, backend architecture, API design, system design, cloud development.</p>
-          <p>Arun Kumar software developer, full stack developer, remote freelance developer available for hire.</p>
+          <h1>Arun Kumar - Golang Developer | Go Developer | Freelance Software Developer | Software Engineer Chennai</h1>
+          <p>Golang Developer from Chennai, India. Expert in Go, golang developer, backend development, REST APIs, microservices, concurrent programming, goroutines.</p>
+          <p>Arun Kumar software developer, arun software engineer, full stack developer, freelance developer. Hire for Golang development, Go programming, backend architecture.</p>
+          <p>Remote golang developer available for hire. Best golang developer in Chennai for backend systems, API development.</p>
         </div>
 
       {/* Scroll indicator */}

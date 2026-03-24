@@ -82,9 +82,10 @@ export function Footer() {
 
         {/* SEO Hidden Content */}
         <div className="sr-only">
-          <h2>Contact Arun Kumar - Hire Go Developer</h2>
-          <p>Contact for freelance Golang projects, backend development, API development, software development services in Chennai, India.</p>
-          <p>Available for remote work, contract projects, full-time opportunities. Expert in Go, Golang, React, Node.js, backend systems.</p>
+          <h2>Contact Arun Kumar | Hire Golang Developer | Software Developer Chennai</h2>
+          <p>Contact Arun Kumar - hire golang developer, freelance software developer for Golang projects, backend development, API development.</p>
+          <p>Arun software engineer available for remote work, contract projects. Expert golang developer in Chennai, India - hire for Go, React, Node.js.</p>
+          <p>Best freelance golang developer for backend systems, microservices development. Software developer for hire.</p>
         </div>
       </div>
     </footer>
